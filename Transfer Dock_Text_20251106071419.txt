@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Prasad RO Water Purifier – Visakhapatnam | Sales & Service</title>
+  <meta name="description" content="Domestic & commercial RO systems, water softeners, purification plants. Installation, service & AMC in Vizag." />
+  <meta name="keywords" content="RO water purifier Vizag, water purifier service Visakhapatnam, RO AMC Vizag, Prasad RO" />
+  <meta name="theme-color" content="#0ea5e9" />
+  <style>
+    :root{--p:#0ea5e9;--d:#0b6ea8;--bg:#f8fafc;--text:#0f172a}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.6}
+    header{background:linear-gradient(135deg,var(--p),var(--d));color:#fff;padding:64px 16px;text-align:center}
+    header h1{margin:0;font-size:clamp(28px,4vw,44px);font-weight:800}
+    header p{margin:12px 0 24px;opacity:.95}
+    .btn{display:inline-block;background:#fff;color:#0b6ea8;padding:12px 18px;border-radius:999px;text-decoration:none;font-weight:700}
+    .container{max-width:1080px;margin:0 auto;padding:28px 16px}
+    .grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+    .card{background:#fff;border-radius:16px;padding:18px;box-shadow:0 6px 18px rgba(2,6,23,.06);border:1px solid rgba(2,6,23,.06)}
+    h2{font-size:clamp(22px,3vw,28px);margin:8px 0 12px}
+    ul{padding-left:18px;margin:0}
+    .badge{display:inline-block;background:rgba(14,165,233,.1);color:#0369a1;padding:4px 10px;border-radius:999px;font-size:12px;font-weight:700;margin-right:8px}
+    .cta{background:#e0f2fe;border:1px dashed #7dd3fc;border-radius:16px;padding:18px;text-align:center}
+    footer{padding:24px 16px;text-align:center;color:#334155}
+    a{color:var(--d)}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Prasad RO Water Purifier – Visakhapatnam</h1>
+    <p>Sales • Installation • Service • AMC for RO Water Purifiers & Water Treatment Plants</p>
+    <a class="btn" href="tel:+918885348883">Call: 88853 48883</a>
+    <div style="margin-top:10px">
+      <a style="color:#fff;opacity:.95" href="https://wa.me/918885348883" rel="noopener">WhatsApp us</a>
+    </div>
+  </header>
+
+  <section class="container">
+    <div class="grid">
+      <div class="card">
+        <span class="badge">Services</span>
+        <h2>What we do</h2>
+        <ul>
+          <li>New RO systems (domestic & commercial)</li>
+          <li>Installation & demo</li>
+          <li>Regular maintenance & filters</li>
+          <li>Annual Maintenance Contracts (AMC)</li>
+          <li>Water softeners & purification plants</li>
+        </ul>
+      </div>
+      <div class="card">
+        <span class="badge">New Models</span>
+        <h2>Popular choices</h2>
+        <ul>
+          <li>RO + UV + UF (7–10 L)</li>
+          <li>RO + UV + UF + Copper</li>
+          <li>Commercial RO (25–100 LPH)</li>
+          <li>Industrial plants (250–1000 LPH)</li>
+        </ul>
+      </div>
+      <div class="card">
+        <span class="badge">Why Us</span>
+        <h2>Why choose Prasad RO?</h2>
+        <ul>
+          <li>Fast same-day service in most areas</li>
+          <li>Genuine membranes & filters</li>
+          <li>Trained technicians</li>
+          <li>Transparent pricing</li>
+          <li>Support in English & Telugu</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="card" style="margin-top:16px">
+      <h2>Contact & Location</h2>
+      <p><strong>Phone:</strong> <a href="tel:+918885348883">88853 48883</a> / <a href="tel:+916305477269">63054 77269</a></p>
+      <p><strong>Address:</strong> Visakhapatnam (Vizag). On-site service available across MVP Colony, Gajuwaka, NAD, Seethammadhara & nearby areas.</p>
+      <p><strong>Hours:</strong> Mon–Sun, 9:00 AM – 8:00 PM</p>
+      <p><strong>Email:</strong> <a href="mailto:info@prasadrowaterpurifier.in">info@prasadrowaterpurifier.in</a></p>
+      <p><a href="https://maps.google.com/?q=Prasad%20RO%20Water%20Purifier%20Visakhapatnam" target="_blank" rel="noopener">Open in Google Maps</a></p>
+    </div>
+
+    <div class="cta" style="margin-top:16px">
+      <h2>Need help choosing the right purifier?</h2>
+      <p>Send your TDS reading on WhatsApp and we’ll suggest the best model.</p>
+      <a class="btn" href="https://wa.me/918885348883">Chat on WhatsApp</a>
+    </div>
+  </section>
+
+  <footer>
+    © <span id="y"></span> Prasad RO Water Purifier, Visakhapatnam • Sales, Service & AMC
+  </footer>
+
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
