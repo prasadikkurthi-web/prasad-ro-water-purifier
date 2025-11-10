@@ -1,72 +1,65 @@
-<!-- ✅ Products Gallery Section -->
-<section id="products" class="gallery">
+<section id="models" class="container">
   <h2>💧 Our RO Water Purifier Models</h2>
-  <p>Choose from a variety of high-quality RO water purifiers, commercial plants, and spare parts. Installation & service available across Vizag.</p>
+  <p class="lead">Choose from high-quality RO purifiers, commercial plants & spare parts. Installation & service across Vizag.</p>
 
-  <div class="product-grid">
-    <div class="product-card">
-      <img src="images/gseries.jpg" alt="G+ Series Copper Rich Digital Display RO Vizag">
+  <div class="grid">
+    <!-- Card -->
+    <article class="card">
+      <img src="img/gplus-series.jpg" alt="G+ Series Copper Rich RO Visakhapatnam">
       <h3>G+ Series Copper Rich RO</h3>
-      <p>Digital Display | Copper Shield Technology | Alkaline Water</p>
-    </div>
+      <ul>
+        <li>Digital Display</li>
+        <li>Copper Shield Technology</li>
+        <li>Alkaline Water</li>
+      </ul>
+      <a class="btn" href="tel:8885348883">Call for Price</a>
+    </article>
 
-    <div class="product-card">
-      <img src="images/innovica.jpg". alt="Innovica Aqua RO Vizag">
+    <article class="card">
+      <img src="img/innovica-aqua.jpg" alt="Innovica Aqua RO Vizag">
       <h3>Innovica Aqua</h3>
-      <p>Zinc + Copper + Alkaline | Premium Design | LED Display</p>
-    </div>
+      <ul>
+        <li>Zinc + Copper + Alkaline</li>
+        <li>Premium Design</li>
+        <li>LED Display</li>
+      </ul>
+      <a class="btn" href="https://wa.me/918885348883?text=I%20am%20interested%20in%20Innovica%20Aqua">WhatsApp Quote</a>
+    </article>
 
-    <div class="product-card">
-      <img src="images/olivar.jpg" alt="Olivar Cyclone RO Vizag">
+    <article class="card">
+      <img src="img/olivar-cyclone.jpg" alt="Olivar Cyclone RO Vizag">
       <h3>Olivar Cyclone</h3>
-      <p>3-in-1 Copper | Zinc | Alkaline Filtration</p>
-    </div>
+      <ul>
+        <li>3-in-1 Copper</li>
+        <li>Zinc | Alkaline Filtration</li>
+        <li>Compact body</li>
+      </ul>
+      <a class="btn" href="tel:8885348883">Call for Price</a>
+    </article>
 
-    <div class="product-card">
-      <img src="images/purosis.jpg" alt="Purosis RO Vizag">
-      <h3>Purosis Redefining Purity</h3>
-      <p>RO + ALK + Copper | Wall-mounted compact purifier.</p>
-    </div>
-
-    <div class="product-card">
-      <img src="images/lxone.jpg" alt="LX One Polar White RO Vizag">
-      <h3>LX One Glam Edition</h3>
-      <p>Polar White | Elegant design | Dual Purification System.</p>
-    </div>
-
-    <div class="product-card">
-      <img src="images/lxtwo.jpg" alt="LX Two Titanium Series RO Vizag">
-      <h3>LX Two Titanium Series</h3>
-      <p>Available in 6 colours | High purification capacity.</p>
-    </div>
-
-    <div class="product-card">
-      <img src="images/zedsystems.jpg" alt="ZED Systems AVA+ RO Vizag">
-      <h3>ZED Systems AVA+ Series</h3>
-      <p>RO + UV + Alkaline | Compact, modern design.</p>
-    </div>
-
-    <div class="product-card">
-      <img src="images/blueshell.jpg" alt="Blueshell Commercial RO Vizag">
-      <h3>Blueshell 50 LPH Commercial Plant</h3>
-      <p>Heavy-duty RO | Ideal for hotels, schools & offices.</p>
-    </div>
-
-    <div class="product-card">
-      <img src="images/commercialplant.jpg" alt="Industrial RO Plant Vizag">
-      <h3>Commercial RO Plants</h3>
-      <p>Industrial & Commercial setups | High capacity filtration.</p>
-    </div>
+    <!-- Duplicate the card block for the rest of your models -->
   </div>
 </section>
 
-<!-- ✅ Footer -->
-<footer>
-  <p>© <span id="y"></span> Prasad RO Water Purifier, Visakhapatnam.</p>
-  <script>
-    document.getElementById('y').textContent = new Date().getFullYear();
-  </script>
+<!-- Sticky contact bar -->
+<div class="sticky-bar">
+  <a href="tel:8885348883">📞 Call: 88853 48883</a>
+  <a href="https://wa.me/918885348883?text=Hi%2C%20I%20need%20RO%20service%20in%20Vizag">💬 WhatsApp</a>
+  <a href="#contact">📍 Service in Vizag</a>
+</div>
+
+<style>
+  :root { --brand:#0ea5e9; --text:#0f172a; --muted:#475569; --bg:#ffffff; }
+  .container{max-width:1100px;margin:auto;padding:24px;}
+  h2{font-size:1.6rem;margin:8px 0 12px;}
+  .lead{color:var(--muted);margin-bottom:18px;}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;}
+  .card{
+
+<title>Prasad RO Water Purifier – Sales & Service in Visakhapatnam (Vizag)</title>
+<meta name="description" content="Domestic & commercial RO systems, softeners, and plants. Installation, repair, and AMC across Vizag. Call 88853 48883."/>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<footer class="container" style="text-align:center;color:#64748b;padding:24px 0;">
+  © 2025 Prasad RO Water Purifier, Visakhapatnam • Sales • Service • AMC • <a href="tel:8885348883">Call 88853 48883</a>
 </footer>
-</main>
-</body>
-</html>
