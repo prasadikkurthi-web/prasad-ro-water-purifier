@@ -1,14 +1,5 @@
-<img src="img/olivar-cyclone.jpg" alt="Olivar Cyclone RO Vizag" width="250">
-
-<img src="img/innovica-aqua.jpg" alt="Innovica Aqua RO Vizag" width="250">
-
-<img src="img/gplus-series.jpg" alt="G+ Series Copper Rich RO Visakhapatnam" width="250">
-<img src="img/olivar-cyclone.jpg" alt="Olivar Cyclone RO Vizag" width="250">
-<img src="img/innovica-aqua.jpg" alt="Innovica Aqua RO Vizag" width="250">
-<img src="img/gplus-series.jpg" alt="G+ Series Copper Rich RO Visakhapatnam" width="250">
-
-/index.html
-/img
-   |— olivar-cyclone.jpg
-   |— innovica-aqua.jpg
-   |— gplus-series.jpg
+# from your repo root
+git add assets/images/*
+git add path/to/your/page.html   # or the file you edited
+git commit -m "Add product grid + product images"
+git push origin main
